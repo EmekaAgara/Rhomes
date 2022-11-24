@@ -1,9 +1,9 @@
-import { Image, StyleSheet, Text, View } from 'react-native'
+import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 
 const Apartments = () => {
   return (
-    <View style={styles.container}>
+    <TouchableOpacity style={styles.container}>
       <Image style={styles.image} source={{uri:'https://emekaagara.com/wp-content/uploads/2022/11/jorge-de-jorge-NvqYkDPE0Rw-unsplash-300x246.jpg'}}/>
 
       <Text style={styles.bedrooms}>1 bed 1 bedroom</Text>
@@ -17,7 +17,7 @@ const Apartments = () => {
         / Night
       </Text>
       <Text style={styles.totalPrice}>₦25,000 total</Text>
-    </View>
+    </TouchableOpacity>
   )
 }
 
@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
     title:{
         fontSize:18,
         fontWeight:'bold',
-        marginVertical:10,
+        marginVertical:7,
     },
 
 
@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
     },
     prices:{
         fontSize:18,
-        marginVertical:10,
+        marginVertical:7,
         color:'red'
     },
     oldPrice:{
