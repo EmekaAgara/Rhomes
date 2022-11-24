@@ -1,22 +1,23 @@
 import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 
-const Apartments = () => {
+const Apartments = (props) => {
+    const Apartments = props.Apartments;
   return (
     <TouchableOpacity style={styles.container}>
-      <Image style={styles.image} source={{uri:'https://emekaagara.com/wp-content/uploads/2022/11/jorge-de-jorge-NvqYkDPE0Rw-unsplash-300x246.jpg'}}/>
+      <Image style={styles.image} source={{uri:Apartments.image}}/>
 
-      <Text style={styles.bedrooms}>1 bed 1 bedroom</Text>
-      <Text style={styles.title}>Emerald Luxury Apartments</Text>
+      <Text style={styles.bedrooms}>{Apartments.bed} bed {Apartments.bedroom} bedroom</Text>
+      <Text style={styles.title}>{Apartments.title}</Text>
       
-      <Text style={styles.description} numberOfLines={2}>This is just some dummy data for the apartments description it will be edited later</Text>
+      <Text style={styles.description} numberOfLines={2}>{Apartments.description}</Text>
 
       <Text style={styles.prices}>
-        <Text style={styles.oldPrice}>₦50,000</Text>
-        <Text style={styles.price}>  ₦25,000 </Text>
+        <Text style={styles.oldPrice}>₦{Apartments.oldPrice}</Text>
+        <Text style={styles.price}>  ₦{Apartments.newPrice} </Text>
         / Night
       </Text>
-      <Text style={styles.totalPrice}>₦25,000 total</Text>
+      <Text style={styles.totalPrice}>₦{Apartments.totalPrice} total</Text>
     </TouchableOpacity>
   )
 }
@@ -36,21 +37,22 @@ const styles = StyleSheet.create({
     },
 
     bedrooms:{
-        marginVertical:10,
+        marginTop:10,
         color:'gray',
     },
 
     title:{
-        fontSize:18,
-        fontWeight:'bold',
+        fontSize:22,
+        fontWeight:'600',
         marginVertical:7,
     },
 
 
     description:{
-        fontSize:16,
+        fontSize:19,
         lineHeight:26,
-        color:'gray'
+        color:'gray',
+        // fontWeight:'normal',
     },
     prices:{
         fontSize:18,
