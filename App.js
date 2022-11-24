@@ -3,6 +3,7 @@ import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 import Apartments from './src/components/Apartments';
 import HomeScreen from './src/screens/Home';
 import apartmentsData from './assets/data/apartmentsData';
+import SearchResultsScreen from './src/screens/SearchResults';
 
 
 const apartment1 = apartmentsData[0];
@@ -12,7 +13,8 @@ export default function App() {
     <SafeAreaView>
       <StatusBar style="auto" />
       {/* <HomeScreen/> */}
-      <Apartments Apartments={apartment1}/>
+      {/* <Apartments Apartments={apartment1}/> */}
+      <SearchResultsScreen/>
     </SafeAreaView>
   );
 }

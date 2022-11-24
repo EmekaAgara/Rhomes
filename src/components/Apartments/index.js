@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
 
 
     description:{
-        fontSize:19,
+        fontSize:16,
         lineHeight:26,
         color:'gray',
         // fontWeight:'normal',

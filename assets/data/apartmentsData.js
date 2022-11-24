@@ -1,7 +1,7 @@
 export default [
     {
       id: '0',
-      image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/1.jpg',
+      image: 'https://emekaagara.com/wp-content/uploads/2022/11/huy-nguyen-AB-q9lwCVv8-unsplash-1.jpg',
       type: 'Shortlet Apartment',
       title: 'Emerald Apartments',
       description: 'Enjoy absolute beachfront luxury at this Bali-inspired retreat combining architectural design, laid-back beauty and sweeping ocean views. Just steps from Callala Beach, this stunning coastal home is the perfect place to relax and embrace the sunkissed lifestyle. Villa Salina is made for sandy feet, salty skin and that true holiday feeling.',
@@ -17,7 +17,7 @@ export default [
     },
     {
       id: '1',
-      image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/2.jpg',
+      image: 'https://emekaagara.com/wp-content/uploads/2022/11/naomi-hebert-MP0bgaS_d1c-unsplash.jpg',
       type: 'Entire Flat',
       title: 'Grandview Hotel',
       description: 'This stunning coastal home is the perfect place to relax and embrace the sunkissed lifestyle. Villa Salina is made for sandy feet, salty skin and that true holiday feeling',
@@ -33,7 +33,7 @@ export default [
     },
     {
       id: '2',
-      image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/3.jpg',
+      image: 'https://emekaagara.com/wp-content/uploads/2022/11/ralph-ravi-kayden-FqqiAvJejto-unsplash.jpg',
       type: 'Private Property',
       title: 'Nottingham View Courts',
       description: 'Just steps from Callala Beach, this stunning coastal home is the perfect place to relax and embrace the sunkissed lifestyle. Villa Salina is made for sandy feet, salty skin and that true holiday feeling',
@@ -49,7 +49,7 @@ export default [
     },
     {
       id: '3',
-      image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/4.jpg',
+      image: 'https://emekaagara.com/wp-content/uploads/2022/11/patrick-perkins-iRiVzALa4pI-unsplash-1.jpg',
       type: 'Entire Flat',
       title: 'KingsCourt Apartments',
       description: 'The perfect place to relax and embrace the sunkissed lifestyle. Villa Salina is made for sandy feet, salty skin and that true holiday feeling',
